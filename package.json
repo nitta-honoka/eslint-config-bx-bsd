@@ -1,0 +1,11 @@
+{
+  "name": "eslint-config-bx-bsd",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo todo"
+  },
+  "repository": "coderhaoxin/eslint-config-bx-bsd",
+  "author": "haoxin",
+  "license": "MIT"
+}
