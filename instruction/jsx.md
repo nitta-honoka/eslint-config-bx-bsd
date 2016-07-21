@@ -25,9 +25,9 @@ shorthand for `foo: foo` assignment is better:
 traditional way is also allowed:
 
 ```jsx
-<Note a=b />
+<Note a='s' />
 <Note a={b} />
-<Note a={b} c=d />
+<Note a={b} c={d} />
 ```
 
 ### 3. if props are too long to write in one line
@@ -35,7 +35,7 @@ traditional way is also allowed:
 define props outside jsx:
 
 ```jsx
-const props = {xxx}
+const props = {a, b, c, more}
 <Note {...props} />
 ```
 
@@ -69,4 +69,24 @@ traditional way is better:
 
 // recommended
 <Note a='name' b={true} fn={v => xxx} />
+```
+
+## more ...
+
+```jsx
+// not recommended
+<a href='example.org/hello'
+  onClick={() => this.doSomething()}>hello</a>
+
+// recommended
+<a href='example.org/hello' onClick={
+  () => this.doSomething()
+}>hello</a>
+
+// not recommended
+<Icon type='download' /><span>get it</span>
+
+// recommended
+<Icon type='download' />
+<span>get it</span>
 ```
