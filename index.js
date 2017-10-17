@@ -28,6 +28,7 @@ module.exports = {
     "rest-spread-spacing": [1, "never"],
     "dot-location": [1, "property"],
     "no-empty-character-class": 1,
+    "no-unexpected-multiline": 1,
     "no-dupe-class-members": 1,
     "no-underscore-dangle": 0,
     "no-use-before-define": 0,
