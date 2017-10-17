@@ -40,6 +40,7 @@ module.exports = {
     "semi": [1, "never"],
     "no-implied-eval": 1,
     "no-extra-bind": 1,
+    'require-await': 1,
     "valid-typeof": 1,
     "no-dupe-keys": 1,
     "no-labels": 1,
